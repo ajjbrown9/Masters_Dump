@@ -1,0 +1,512 @@
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(data_sub2)
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(data_sub2)
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(data_sub2)
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(data_sub2)
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(data_sub2)
+boxplot(data_sub2)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length)
+boxplot(iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,10)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length)
+boxplot(iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length)
+boxplot(iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75)))
+boxplot(iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+library(ggplot2)
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+#4
+cor(iris$Sepal.Length, iris$Petal.Length)
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+#4
+cor(iris$Sepal.Length, iris$Petal.Length)
+scatter.smooth(iris$Sepal.Length,iris$Sepal.Length)
+Sys.Date()
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+#4
+par(mfrow=c(2,2))
+cor(iris$Sepal.Length, iris$Petal.Length)
+plot(iris$Sepal.Length,iris$Petal.Length)
+scatter.smooth(iris$Sepal.Length,iris$Sepal.Length)
+Sys.Date()
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+#2
+summary(iris)
+Sys.Date()
+#3
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+#4
+par(mfrow=c(2,2))
+cor(iris$Sepal.Length, iris$Petal.Length)
+plot(iris$Sepal.Length,iris$Petal.Length)
+scatter.smooth(iris$Sepal.Length,iris$Sepal.Length)
+Sys.Date()
+#1
+data <- head(iris, 6)
+data
+Sys.Date()
+iris
+data <- head(iris, 6)
+data
+Sys.Date()
+data <- head(iris, 6)
+data
+Sys.Date()
+summary(iris)
+Sys.Date()
+data_sub1 <- summary(iris$Sepal.Length)
+data_sub2 <- summary(iris$Petal.Length)
+data_sub1
+data_sub2
+par(mfrow=c(2,2))
+hist(iris$Sepal.Length
+,xlab = "Sepal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Sepal.Length)
+hist(iris$Petal.Length
+,xlab = "Petal Length"
+,xlim = c(0,8)
+,breaks = 5
+,ylim = c(0,75))
+boxplot(iris$Petal.Length)
+Sys.Date()
+par(mfrow=c(2,2))
+cor(iris$Sepal.Length, iris$Petal.Length)
+plot(iris$Sepal.Length,iris$Petal.Length)
+Sys.Date()
+cor(iris$Sepal.Length, iris$Petal.Length)
+plot(iris$Sepal.Length,iris$Petal.Length)
+Sys.Date()
+cor(iris$Sepal.Length, iris$Petal.Length)
+plot(iris$Sepal.Length,iris$Petal.Length)
+Sys.Date()
+knitr::opts_chunk$set(echo = TRUE)
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+cereal.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+cereal.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+dim(toyota.df) # returns the physical dimension of the data set (i.e. rows and columns).
+housing <- set.as.dataframe(housing.df)
+housing <- set.data.frame(housing.df)
+housing <- as.data.frame(housing.df)
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+housing.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+housing <- as.data.frame(housing.df)
+dim(housing) # returns the physical dimension of the data set (i.e. rows and columns).
+View(housing) # outputs a grid view of the data in a separate output for review.
+summary(housing) # displays statistical summary of each variable.
+str(toyota.df) # displays variable attributes.
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+housing.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+housing <- as.data.frame(housing.df)
+dim(housing) # returns the physical dimension of the data set (i.e. rows and columns).
+View(housing) # outputs a grid view of the data in a separate output for review.
+summary(housing) # displays statistical summary of each variable.
+str(housing) # displays variable attributes.
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+housing.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+housing <- as.data.frame(housing.df)
+dim(housing) # returns the physical dimension of the data set (i.e. rows and columns).
+View(housing) # outputs a grid view of the data in a separate output for review.
+str(housing) # displays variable attributes.
+summary(housing) # displays statistical summary of each variable.
+sd(housing)
+housing[c(1,4,6)]
+housing
+housing_q <- housing[c(1,4,6)]
+housing
+housing_q
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+housing.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+housing <- as.data.frame(housing.df)
+dim(housing) # returns the physical dimension of the data set (i.e. rows and columns).
+View(housing) # outputs a grid view of the data in a separate output for review.
+str(housing) # displays variable attributes.
+summary(housing) # displays statistical summary of each variable.
+sd(housing)
+housing_q <- housing[-c(4,9)]
+housing_q
+housing_q <- housing[-c(4,9)] # removed CHAS and RAD
+housing_q
+sd(housing_q)
+housing_q <- housing[-c(4,9,14)] # removed CHAS and RAD
+housing_q
+sd(housing_q)
+housing_q <- housing[-c(4,9,14)] # removed CHAS and RAD
+housing_q
+sd(housing_q)
+housing_q <- housing[-c(4,9,14)] # removed CHAS and RAD
+housing_q
+sd(housing)
+housing_q <- housing[-c(4,9,14)] # removed CHAS and RAD
+housing_q
+sd(housing.df)
+kurt(housing_q)
+for (i in housing_q)
+sd(i))
+sd(i)
+for (i in housing_q)
+sd(i)
+kurt(i)
+skew(i)
+sd(i)
+sd(i)
+sd(i)
+sd(i)
+for (i in housing_q)
+sd(i)
+kurt(i)
+skew(i)
+kurt(housing_q)
+kurt(housing_q)
+housing_q <- housing[-c(4,9,14)] # removed CHAS and RAD
+housing_q
+kurt(housing_q)
+kurt(housing)
+kurt()
+kurt()
+kurt()
+kurt()
+housing_q
+kurt()
+kur(housing_q)
+kurtosis(housing_q, na.rm=TRUE)
+kurtosis(housing_q, na.rm=TRUE)
+kurtosis()
+kurtosis(housing_q)

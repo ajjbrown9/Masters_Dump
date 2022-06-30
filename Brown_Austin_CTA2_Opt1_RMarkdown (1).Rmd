@@ -1,0 +1,74 @@
+---
+title: "Brown_Austin_CTA2_Opt1"
+author: "Austin Brown"
+date: "2/13/2022"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r cereal}
+setwd("C:/Learning/MS Degree/MIS510/Week_2")
+cereal.df <- read.csv("MIS510Cereals.csv", header = TRUE)
+cereal <- as.data.frame(cereal.df)
+View(cereal )# outputs a grid view of the data in a separate output for review.
+summary(cereal) # displays statistical summary of each variable.
+head(cereal) # shows the first (default) 6 of the data set.
+str(cereal) # displays attributes and samples of data set variables.
+mean <- sapply(cereal[,c(4:15)],mean,na.rm=TRUE)
+mean
+sd <- sapply(cereal[,c(4:15)],sd,na.rm=TRUE)
+sd
+min <- sapply(cereal[,c(4:15)],min,na.rm=TRUE)
+min
+max <- sapply(cereal[,c(4:15)],max,na.rm=TRUE)
+max
+median <- sapply(cereal[,c(4:15)],median,na.rm=TRUE)
+median
+length <- sapply(cereal[,c(4:15)],length) # returns the count of variables (rows) within the column
+length
+dim(cereal) # returns the physical dimension of the data set (i.e. rows and columns). This is useful for comparison against length().
+sum <- sapply(cereal[,c(4:15)],sum, na.rm=TRUE)
+sum
+cer_quant <- cereal[c(4:15)] # subset of cereal, created in order to use functions or iterate only on desired columns within the vector.
+Sys.Date()
+```
+```{r hist}
+#I attempted this in a different manner than suggested by the text simply as a personal challenge, the output seems to be sufficient.
+
+#CREATE HISTOGRAMS
+cer_quant <- cereal[c(4:15)]
+lapply(seq(cer_quant), function(x)
+  hist(x=cer_quant[[x]], xlab=names(cer_quant)[x], main=paste("Histogram", names(cer_quant)[x]))) # iterates through every vector of columns and applies hist()
+Sys.Date()
+
+```
+```{r boxplot}
+#This was an attempt to iterate like above for the box plot, though the y-axis name threw a wench in the output as even with a static
+#names(cer_quant) it simply lists all the possible outputs in the list. Any advice on getting the y-axis labels with using explicit labels
+#such as in the text book suggested approach?
+#cer_quant <- cereal[c(4:15)]
+#par(mfcol = c(1,4))
+#for (i in cer_quant)
+#  boxplot(i ~ cereal$type,xlab=names(cereal$type),ylab=names(cer_quant)[i], main=paste("BoxPlot", names(cer_quant)[i]))
+          
+#CREATE BOX PLOTS          
+par(mfcol = c(1,4))
+boxplot(cereal$calories ~ cereal$type, xlab=cereal$type, ylab="calories")
+boxplot(cereal$protein ~ cereal$type, xlab=cereal$type, ylab="protein")
+boxplot(cereal$fat ~ cereal$type, xlab=cereal$type, ylab="fat")
+boxplot(cereal$sodium ~ cereal$type, xlab=cereal$type, ylab="sodium")
+boxplot(cereal$fiber ~ cereal$type, xlab=cereal$type, ylab="fiber")
+boxplot(cereal$carbo ~ cereal$type, xlab=cereal$type, ylab="carbo")
+boxplot(cereal$sugars ~ cereal$type, xlab=cereal$type, ylab="sugars")
+boxplot(cereal$potass ~ cereal$type, xlab=cereal$type, ylab="potass")
+boxplot(cereal$vitamins ~ cereal$type, xlab=cereal$type, ylab="vitamins")
+boxplot(cereal$shelf ~ cereal$type, xlab=cereal$type, ylab="shelf")
+boxplot(cereal$weight ~ cereal$type, xlab=cereal$type, ylab="weight")
+boxplot(cereal$cups ~ cereal$type, xlab=cereal$type, ylab="cups")
+Sys.Date()
+```
+

@@ -1,0 +1,27 @@
+---
+title: "510_CTA_1"
+author: "Austin Brown"
+date: "2/11/2022"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r toyota}
+setwd("C:/Learning/MS Degree/MIS510/Week_1")
+toyota.df <- read.csv("ToyotaCorolla.csv", header = TRUE)
+dim(toyota.df) # returns the physical dimension of the data set (i.e. rows and columns).
+head(toyota.df) # shows the first (default) 6 of the data set.
+tail(toyota.df) # shows the bottom (default) 6 of the data set.
+View(toyota.df) # outputs a grid view of the data in a separate output for review.
+summary(toyota.df) # displays statistical summary of each variable.
+str(toyota.df) # displays attributes and samples of data set variables.
+toyotax <- model.matrix(~ 0 + Fuel_Type + Color, data = toyota.df) # explicitly states from what columns dummy variables should be converted.
+toyota <- as.data.frame(toyotax) # reassignment of toyota per the converted data frame.
+t(t(names(toyota))) # returns names of conversion resulting variables.
+head(toyota) # refer to above
+Sys.Date()
+```

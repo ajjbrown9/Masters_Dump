@@ -1,0 +1,57 @@
+/* Generated Code (IMPORT) */
+/* Source File: WDIData.csv */
+/* Source Path: /home/u59465338/sasuser.v94 */
+/* Code generated on: 12/5/21, 4:05 PM */
+
+%web_drop_table(WORK.IMPORT);
+
+
+FILENAME REFFILE '/home/u59465338/sasuser.v94/WDIData.csv';
+
+PROC IMPORT DATAFILE=REFFILE
+	DBMS=CSV
+	OUT=WORK.IMPORT;
+	GETNAMES=NO;
+RUN;
+
+PROC PRINT DATA=WORK.IMPORT;
+WHERE VAR3 IN ("Technicians in R&D (per million people)"
+				,"Secure Internet servers"
+				,"Secure Internet servers (per 1 million people)"
+				,"Scientific and technical journal articles"
+				,"Mobile cellular subscriptions"
+				,"Literacy rate, adult total (% of people ages 15 and above)"
+				,"Literacy rate, youth total (% of people ages 15-24)"
+				,"Individuals using the Internet (% of population)"
+				,"High-technology exports (current US$)"
+				,"Fixed broadband subscriptions"
+				,"Fixed telephone subscriptions"
+				,"Energy imports, net (% of energy use)"
+				,"Energy intensity level of primary energy (MJ/$2011 PPP GDP)"
+				,"Energy related methane emissions (% of total)"
+				,"Energy use (kg of oil equivalent per capita)"
+				,"Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)"
+				,"Expenditure on primary education (% of government expenditure on education)"
+				,"Expenditure on secondary education (% of government expenditure on education)"
+				,"Expenditure on tertiary education (% of government expenditure on education)"
+				,"Employment in agriculture (% of total employment) (modeled ILO estimate)"
+				,"Employment in industry (% of total employment) (modeled ILO estimate)"
+				,"Employment in services (% of total employment) (modeled ILO estimate)"
+				,"Electric power consumption (kWh per capita)"
+				,"Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative)"
+				,"Educational attainment, at least completed short-cycle tertiary, population 25+, total (%) (cumulative)"
+				,"Educational attainment, at least Master's or equivalent, population 25+, total (%) (cumulative)"
+				,"Depth of credit information index (0=low to 8=high)"
+				,"Communications, computer, etc. (% of service exports, BoP)"
+				,"Communications, computer, etc. (% of service imports, BoP)"
+				,"Access to electricity (% of population)"
+				,"Access to electricity, rural (% of rural population)"
+				,"Access to electricity, urban (% of urban population)"
+				,"Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+				,"Computer, communications and other services (% of commercial service exports)"
+				,"Computer, communications and other services (% of commercial service imports)"
+);
+RUN;
+
+
+%web_open_table(WORK.IMPORT);

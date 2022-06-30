@@ -1,0 +1,47 @@
+---
+title: "Brown_Austin_CTA3"
+author: "Austin Brown"
+date: "2/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r cars}
+setwd("C:/Learning/MS Degree/MIS510/Week_3")
+housing.df <- read.csv("MIS510BostonHousing.csv", header = TRUE)
+housing <- as.data.frame(housing.df)
+dim(housing) # returns the physical dimension of the data set (i.e. rows and columns).
+View(housing) # outputs a grid view of the data in a separate output for review.
+str(housing) # displays variable attributes.
+summary(housing) # displays statistical summary of each variable.
+```
+
+```{r quant}
+library(moments) #Import moments library for skewness and kurtosis
+housing_q <- housing[-c(4,9,10,14)] # removed CHAS and RAD and CAT..MEDV
+sd(housing_q$MEDV) # Standard Deviation of MEDV (our y variable). I kept running into an issue here with R where I could not run this
+#across the set of data even after converting to numeric. Any input?
+skewness(housing_q, na.rm=TRUE) # Skewness of all variables in housing_q, nulls removed.
+kurtosis(housing_q, na.rm=TRUE) # Kurtosis of all variables in housing_q, nulls removed.
+```
+
+```{r regression}
+library(dplyr)
+housing_r <- housing[-c(14)] # Removal of CAT..MEDV
+cor(housing_r)
+#mul_reg <- lm(housing_r$MEDV ~ ., data = housing_r)
+#mul_reg
+mul_reg <- lm(housing_r$MEDV ~ housing_r$CRIM + housing_r$CHAS + housing_r$RM, data = housing_r)
+mul_reg
+summary(mul_reg)
+
+```
+
+
+
+
+
+
+
